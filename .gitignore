@@ -1,0 +1,4 @@
+node_modules
+*.map
+# Ignorar la caché de Parcel
+.parcel-cache/
