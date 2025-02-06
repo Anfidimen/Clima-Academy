@@ -1,0 +1,65 @@
+body {
+  background: #f3f4f6;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.App {
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.App h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.App input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.App button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.App button.google-btn {
+  background-color: #db4437;
+}
+
+.App button:hover {
+  background-color: #0056b3;
+}
+
+.App p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.App p span {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
